@@ -32,6 +32,13 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#Add simpleform
+gem 'simple_form'
+
+#Add bootstrap
+gem 'bootstrap-sass', '~> 3.3.5'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

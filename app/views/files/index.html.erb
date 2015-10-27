@@ -1,1 +1,8 @@
-<h1>Hello World!</h1>
+<h1><%= @color.inspect %></h1>
+
+<h1>Enter a color</h1>
+<%= simple_form_for @color do |f| %>
+	<%= f.input :hex %>
+	<%= f.input :name %>
+	<%= f.submit 'Create' %>
+<% end %>
